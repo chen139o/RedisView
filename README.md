@@ -19,24 +19,14 @@
 
 ### 方法1：使用标准启动脚本
 
-1. 双击运行 `start.bat` 脚本
-2. 脚本会自动激活虚拟环境并启动Redis Viewer
-3. 会显示终端窗口（用于调试目的）
+1. 需要创建虚拟环境
+2. 双击运行 `start.bat` 脚本
+3. 脚本会自动激活虚拟环境并启动Redis Viewer
+4. 会显示终端窗口（用于调试目的）
 
-### 方法2：双击启动（推荐）
+### 方法2：手动运行
 
-1. 双击运行 `start_redis_viewer.pyw` 脚本
-2. 脚本会自动激活虚拟环境并启动Redis Viewer
-3. 不会显示终端窗口，直接启动GUI界面
-
-### 方法3：手动运行
-
-1. 激活虚拟环境：
-
-   ```
-   venv\Scripts\activate
-   ```
-2. 启动Redis Viewer：
+1. 启动Redis Viewer：
 
    ```
    python redis_viewer.py
@@ -109,3 +99,4 @@
 1. 激活虚拟环境
 2. 修改 `redis_viewer.py` 文件
 3. 重新运行应用程序测试
+
